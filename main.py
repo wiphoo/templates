@@ -69,7 +69,7 @@ def main():
 	###################################################################################
 	#	options parsing
 
-	usage = 'usage: %prog [options]'
+	usage = 'usage: %prog [options] {!r}'.format( ArgsUsage )
 	parser = OptionParser( usage=usage, version=Version )
 	parser.add_option( '-v', '--verbose',
 							action='store_true', dest='verbose', default=True )
