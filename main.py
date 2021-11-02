@@ -27,16 +27,16 @@ from optparse import OptionParser
 
 #######################################################################################
 #
-#	PROGRAM DEFENITIONS
+#	PROGRAM DEFINITIONS
 #
 
 #	version of this program
 Version = '***VERSION***'
 
-#	program usage, it is a string of an example for how to use this program with arugments
+#	program usage, it is a string of an example for how to use this program with arguments
 ArgsUsage = '***USAGE***'
 
-#	number of required arugments
+#	number of required arguments
 NumRequiredArgs = ***NUM_REQUIRED_ARGUMENTS***
 
 #######################################################################################
@@ -78,7 +78,7 @@ def main():
 	#	check the required arguments
 	if len( args ) != NumRequiredArgs:
 	#	the given arguments is not equals the required arguments,
-	#		so print the error meessage and exit
+	#		so print the error message and exit
 		parser.error( 'incorrect number of arguments.' )
 		sys.exit( -1 )
 	
